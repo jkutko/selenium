@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb77c01d-e0d2-44bd-b21a-3ccbd7442cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Footbollaler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatchTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="eb77c01d-e0d2-44bd-b21a-3ccbd7442cef" name="Default Changelist" comment="dziedziczenie, konstruktory">
+      <change afterPath="$PROJECT_DIR$/src/AndroidApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IphoneApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footbollaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footbollaler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +32,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/jkutko/selenium" />
-      </set>
-    </option>
-  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jkutko"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jkutko/selenium.git",
+    "accountId": "1202a398-22be-4c57-abf9-8f0e4d4cef7a"
+  }
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -58,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AppTest.executor": "Run",
     "Application.AutoTest.executor": "Run",
     "Application.PersonTest.executor": "Run",
     "Application.UserTest.executor": "Run",
@@ -76,6 +79,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.PersonTest">
+    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.AppTest" />
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.AutoTest" />
       <module name="selenium" />
@@ -98,13 +114,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracaDomowa1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracaDomowa1" />
-      <module name="repo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.AppTest" />
         <item itemvalue="Application.AutoTest" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.pracaDomowaPetle" />
-        <item itemvalue="Application.PracaDomowa1" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1676026843540</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="dziedziczenie, konstruktory">
+      <option name="closed" value="true" />
+      <created>1728642406199</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728642406199</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +342,7 @@
     <MESSAGE value="do while" />
     <MESSAGE value="Tablice" />
     <MESSAGE value="praca domowa petle" />
-    <option name="LAST_COMMIT_MESSAGE" value="praca domowa petle" />
+    <MESSAGE value="dziedziczenie, konstruktory" />
+    <option name="LAST_COMMIT_MESSAGE" value="dziedziczenie, konstruktory" />
   </component>
 </project>

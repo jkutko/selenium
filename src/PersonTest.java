@@ -4,7 +4,7 @@ public class PersonTest {
 
     public static void main(String[] args) {
         MatchTeacher teacher = new MatchTeacher("Tom", 30, "AGH");
-       // teacher.walk();
+        teacher.walk();
         teacher.eat();
        // teacher.seyHello();
        // teacher.teachMtch();

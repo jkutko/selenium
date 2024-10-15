@@ -8,7 +8,7 @@ public class Child extends Parent {
 
     public void tetIdentyfi() {
         System.out.println(first);
-        System.out.println(second); //domyślny
+       // System.out.println(second); //domyślny
         System.out.println(third);
 
         firstMethod();

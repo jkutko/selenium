@@ -14,4 +14,11 @@ public class MatchTeacher extends Person {
         System.out.println("I am teaching match");
     }
 
+
+    // super odwołuje sie i pozwala odwołać do metody z klasy nadrzednej
+    // dodatkowo rozszerza metodę
+    public void walk() {
+        super.walk();
+        System.out.println("I am walking");
+    }
 }

@@ -1,6 +1,6 @@
 package src.drivers;
 
-public class ChromDriver implements WebDriver {
+public class ChromeDriver implements WebDriver {
 
 
     @Override

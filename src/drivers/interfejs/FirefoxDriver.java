@@ -1,4 +1,4 @@
-package src.drivers;
+package src.drivers.interfejs;
 
 public class FirefoxDriver implements WebDriver{
 
